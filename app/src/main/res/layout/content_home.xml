@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/content_lay"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="adrock.me.Home"
+    tools:showIn="@layout/app_bar_home"
+    android:background="@mipmap/background"
+    >
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_below="@id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+
+        >
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            custom:selected_color="#0095BF"
+            custom:unselected_color="#55333333"
+            custom:selected_drawable="@drawable/bird"
+            custom:shape="oval"
+            custom:selected_padding_left="6dp"
+            custom:selected_padding_right="6dp"
+            custom:unselected_padding_left="2dp"
+            custom:unselected_padding_right="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+
+            custom:selected_width="6dp"
+            custom:selected_height="6dp"
+            custom:unselected_width="6dp"
+            custom:unselected_height="6dp"
+            />
+    </com.daimajia.slider.library.SliderLayout>
+
+
+
+
+
+</RelativeLayout>

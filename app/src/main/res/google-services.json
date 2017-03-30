@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "785121985648",
+    "firebase_url": "https://lnct-mca.firebaseio.com",
+    "project_id": "lnct-mca",
+    "storage_bucket": "lnct-mca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785121985648:android:600d7304e66bbbc9",
+        "android_client_info": {
+          "package_name": "adrock.me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785121985648-a8im3pjgffg5ec6qsdakqqgca0tf70qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1NYPuXG_SHVORFvcI4xCpc0v4lSCTUkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

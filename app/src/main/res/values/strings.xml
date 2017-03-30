@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LNCT MCA</string>
+
+    <string name="drawerOpen">opened</string>
+    <string name="drawerClosed">closed</string>
+
+    <string-array name="contents">
+        <item>HOME</item>
+        <item>FACULTY</item>
+        <item>COURSES</item>
+        <item>PLACEMENT</item>
+        <item>CONTACT-US</item>
+        <item>ABOUT-US</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_home">LNCT MCA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_info">info</string>
+
+
+</resources>
